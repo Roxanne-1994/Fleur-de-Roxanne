@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff0f5;
+  color: #5a2a4c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #fbb6ce;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+}
+
+.menu a, .menu button {
+  margin: 0 0.5em;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #5a2a4c;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 4em 1em;
+  text-align: center;
+  background: #ffe4e1;
+}
+
+.shop-button {
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about, .products, .contact {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.flower-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.flower {
+  background: #ffe4f1;
+  padding: 1em;
+  border-radius: 1em;
+  width: 250px;
+}
+
+.flower img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  width: 300px;
+  height: 100%;
+  padding: 1em;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+}
+
+.cart.hidden {
+  transform: translateX(100%);
+  transition: transform 0.3s;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #fbb6ce;
+}
